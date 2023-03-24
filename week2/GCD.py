@@ -9,6 +9,7 @@ if num2 > num1:
     num2 = num1
     num1 = temp
 
+# This is the faster algorithm
 
 # A list for the first number - B list for the second number - Q list for the Quotient - R list for the Reminder
 A = []
@@ -28,3 +29,14 @@ while B[-1] != 0:
 GCD = A[-1]
 
 print(GCD)
+
+
+# This is slow algorithm
+
+# GCD = 0
+# for d in range(1, (num1+num2)):
+#     if (num1 % d == 0) and (num2 % d == 0):
+#         GCD = d
+
+
+# print(GCD)
