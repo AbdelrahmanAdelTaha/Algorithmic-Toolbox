@@ -9,7 +9,7 @@ if num2 > num1:
     num2 = num1
     num1 = temp
 
-# This is the faster algorithm
+# This is the fastest algorithm
 
 # A list for the first number - B list for the second number - Q list for the Quotient - R list for the Reminder
 A = []
