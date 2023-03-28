@@ -10,7 +10,7 @@ def GreatestNumber(arr):
         arr.remove(str(max))
         max = 0
 
-    str1 = ' '.join(map(str, arr2))
+    str1 = ''.join(map(str, arr2))
     return str1
 
 
