@@ -12,11 +12,13 @@ def GreatestNumber(arr):
         return str1
 
 
-number_of_digits = int(input('please enter a number digits : '))
+number_of_digits = int(input())
 arr = []
-for i in range(number_of_digits):
-    x = input()
-    arr.append(x)
+x = input()
+# for i in range(number_of_digits):
+#     x = input()
+#     arr.append(x)
+arr = x.split()
 # arr = list(number)
 Greatestnum = GreatestNumber(arr)
 

@@ -6,7 +6,12 @@
 # else:
 #     print("no")
 
-x = 1
-y = 2
-x, y = y, x
-print(x, y)
+# x = 1
+# y = 2
+# x, y = y, x
+# print(x, y)
+
+# arr = []
+# x = input()
+# arr = x.split()
+# print(arr)
